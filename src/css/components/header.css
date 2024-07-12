@@ -14,6 +14,29 @@
 }
 .header .header-navigation {
   display: flex;
+  align-items: center;
+  gap: 100px;
+}
+.header .header-navigation ul {
+  list-style: none;
+}
+.header .header-navigation ul li {
+  color: var(--color-white);
+}
+.header .header-navigation ul li a {
+  padding: 0 15px;
+  line-height: 24px;
+  font-family: "inter-regular", sans-serif;
+  transition: color 0.2s ease-in-out;
+}
+.header .header-navigation ul li a:hover {
+  color: var(--color-green);
+}
+
+@media screen and (max-width: 920px) {
+  .header-navigation {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=header.css.map */

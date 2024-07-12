@@ -14,3 +14,21 @@
 
   .header-navigation
     display: flex
+    align-items: center
+    gap: 100px
+
+    ul
+      list-style: none
+      li
+        color: var(--color-white)
+        a
+          padding: 0 15px
+          line-height: 24px
+          font-family: "inter-regular", sans-serif
+          transition: color 0.2s ease-in-out
+          &:hover
+            color: var(--color-green)
+
+@media screen and (max-width: 920px)
+  .header-navigation
+    display: none !important
