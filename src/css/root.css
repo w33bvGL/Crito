@@ -2,6 +2,14 @@
   font-family: "inter-regular";
   src: url(../../fonts/static/Inter-Regular.ttf);
 }
+@font-face {
+  font-family: "inter-light";
+  src: url(../../fonts/static/Inter-Light.ttf);
+}
+@font-face {
+  font-family: "inter-extra-light";
+  src: url(../../fonts/static/Inter-ExtraLight.ttf);
+}
 * {
   padding: 0;
   margin: 0;
@@ -19,7 +27,7 @@ body {
 }
 
 .container {
-  max-width: 1190px;
+  max-width: 1194px;
   width: 100%;
   margin: 0 auto;
   padding: 0 10px;
@@ -70,6 +78,17 @@ body {
   color: var(--color-gray);
 }
 
+@media screen and (max-width: 768px) {
+  .button-1, .button-2 {
+    font-size: 0.9em;
+  }
+  .button-1 {
+    padding: 10px 25px;
+  }
+  .button-2 {
+    padding: 8px 25px;
+  }
+}
 a {
   text-decoration: none;
   color: inherit;

@@ -5,12 +5,11 @@
     display: flex
     flex-direction: column
 
-
     .primary-header-h1
       min-height: 200px
       position: relative
 
-      img 
+      img
         position: absolute
         z-index: -1
         left: 230px
@@ -26,7 +25,8 @@
       p
         opacity: 0.6
         color: var(--color-white)
-        font-family: 'inter-regular', sans-serif
+        font-family: 'inter-extra-light', sans-serif
+        font-size: 1.1em
         text-align: center
 
     .primary-header-buttons
@@ -38,13 +38,43 @@
     .primary-header-info
       margin-top: 40px
       display: flex
+      align-items: center
       justify-content: center
       gap: 25px
       p
         color: var(--color-white)
-        font-family: 'inter-regular', sans-serif
+        font-family: 'inter-inter-extra-light', sans-serif
         span
           opacity: 0.6
         i
           color: var(--color-green)
           opacity: 1
+
+@media screen and (max-width: 1190px)
+  .container-inner
+    .primary-header-h1
+      min-height: auto !important
+      img
+        display: none
+
+@media screen and (max-width: 768px)
+  .primary-header
+    margin-top: 100px
+
+    .container-inner
+      .primary-header-h1
+        h1
+          font-size: 50px
+
+      .primary-header-buttons
+        margin-top: 20px
+
+@media screen and (max-width: 425px)
+  .primary-header
+    .container-inner
+      .primary-header-h1
+        h1
+          font-size: 45px
+
+      .primary-header-info
+        flex-direction: column

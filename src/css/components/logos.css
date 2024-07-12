@@ -1,0 +1,15 @@
+.logos {
+  background-color: var(--color-light-blue);
+}
+.logos .container-inner {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logos .container-inner .brand-item {
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=logos.css.map */
