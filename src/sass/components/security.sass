@@ -9,6 +9,7 @@
 
     .security-item
       width: 100%
+      z-index: 2
 
       h2
         font-size: 48px
@@ -24,10 +25,10 @@
         color: var(--color-font-dark-blue)
         line-height: 160%
         opacity: 0.7
-
         padding-left: 20px
 
       hr
+        margin-top: 30px
         width: 467px
         opacity: 0.5
 
@@ -43,9 +44,10 @@
 
           img
             position: absolute
-            z-index: 0
+            z-index: -1
             top: -10px
             left: -15px
+            opacity: 0.7
 
           h3
             position: relative
@@ -57,21 +59,19 @@
             line-height: 140%
             letter-spacing: -1px
             font-family: 'jakarta-bold', sans-serif
-          
+
           h4
             font-size: 16px
             font-family: 'inter-extra-light', sans-serif
             color: var(--color-font-dark-blue)
             line-height: 160%
             opacity: 0.7
-              
 
     .security-item-image
       margin-top: 70px
-      height: 480px
-
 
       .security-item-image-inner
+        z-index: 0
         position: absolute
         right: 0
 
@@ -89,3 +89,86 @@
         bottom: 20px
         right: 0
         position: absolute
+
+@media screen and (max-width: 1024px)
+  .security
+    .container-inner
+      flex-direction: column
+
+      .security-item
+
+        h2 , h3
+        padding: 0 !important
+        text-align: center
+
+        hr
+          width: 100% !important
+
+        .security-info
+          flex-direction: row
+          justify-content: center
+
+      .security-item-image
+        display: flex
+        justify-content: center
+
+        .security-item-image-inner
+          position: relative !important
+
+@media screen and (max-width: 768px)
+  .security
+    .security-info
+      flex-direction: column !important
+      align-items: center !important
+
+      .security-info-item
+        width: 60%
+        justify-content: center
+
+        h3, h4
+          text-align: center !important
+
+        img
+          left: 0px !important
+
+    .security-item-image-inner
+      z-index: 0
+      position: absolute
+      right: 0
+
+      .shape
+        width: 400px !important
+        height: 400px !important
+
+      img:nth-child(2)
+        top: -30px !important
+
+      img:nth-child(3)
+        bottom: -30px !important
+
+@media screen and (max-width: 425px)
+  .security
+    .security-info
+      flex-direction: column !important
+      align-items: center !important
+
+      .security-info-item
+        width: 95%
+        justify-content: center
+        h3, h4
+          text-align: center !important
+
+    .security-item-image-inner
+      z-index: 0
+      position: absolute
+      right: 0
+
+      .shape
+        width: 350px !important
+        height: 350px !important
+
+      img:nth-child(2)
+        top: -60px !important
+
+      img:nth-child(3)
+        bottom: -60px !important

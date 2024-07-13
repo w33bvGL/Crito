@@ -54,10 +54,10 @@
 }
 
 @media screen and (max-width: 1190px) {
-  .container-inner .primary-header-h1 {
+  .primary-header .container-inner .primary-header-h1 {
     min-height: auto !important;
   }
-  .container-inner .primary-header-h1 img {
+  .primary-header .container-inner .primary-header-h1 img {
     display: none;
   }
 }
