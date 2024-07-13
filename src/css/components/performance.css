@@ -1,0 +1,99 @@
+.performance .container-inner {
+  padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+}
+.performance .container-inner .performance-title {
+  margin-bottom: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.performance .container-inner .performance-title h2 {
+  position: relative;
+  margin-top: 70px;
+  width: 75%;
+  font-size: 48px;
+  color: var(--color-white);
+  font-family: "jakarta-bold", sans-serif;
+  line-height: 140%;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.performance .container-inner .performance-title h2 img {
+  position: absolute;
+  z-index: -1;
+  top: -70px;
+  left: 75px;
+}
+.performance .container-inner .performance-title h3 {
+  font-size: 1em;
+  font-family: "inter-extra-light", sans-serif;
+  line-height: 160%;
+  font-weight: normal;
+  text-align: center;
+  opacity: 0.7;
+  color: var(--color-white);
+}
+.performance .container-inner .performance-content {
+  display: flex;
+  gap: 30px;
+}
+.performance .container-inner .performance-content .performance-accardeon {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 20px 0;
+}
+.performance .container-inner .performance-content .performance-accardeon .acc {
+  border-top: 2px solid rgba(212, 212, 216, 0.2039215686);
+  padding: 32px 0;
+}
+.performance .container-inner .performance-content .performance-accardeon .acc p {
+  font-size: 32px;
+  font-family: "jakarta-bold", sans-serif;
+  line-height: 140%;
+  letter-spacing: -1px;
+  color: var(--color-white);
+}
+.performance .container-inner .performance-content .performance-img {
+  position: relative;
+}
+.performance .container-inner .performance-content .performance-img .performance-parcent {
+  position: absolute;
+  top: 30px;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  left: -70px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+.performance .container-inner .performance-content .performance-img .performance-parcent strong {
+  font-size: 48px;
+  line-height: 140%;
+  letter-spacing: -1px;
+  font-family: "jakarta-bold", sans-serif;
+  color: var(--color-font-dark-blue);
+  margin-bottom: 11px;
+}
+.performance .container-inner .performance-content .performance-img .performance-parcent p {
+  font-size: 18px;
+  line-height: 25.5px;
+  font-family: "inter-regular", sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+  .performance .performance-content {
+    flex-direction: column;
+  }
+  .performance .performance-content .performance-accardeon {
+    width: 100% !important;
+  }
+  .performance .performance-content .performance-img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=performance.css.map */
