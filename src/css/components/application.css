@@ -4,6 +4,7 @@
 .application .container-inner {
   padding: 105px 0;
   display: flex;
+  gap: 30px;
   justify-content: space-between;
 }
 .application .container-inner .application-title {
@@ -52,6 +53,7 @@
 }
 .application .container-inner .application-advantages-container {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 .application .container-inner .application-advantages-container .circle {
@@ -106,6 +108,19 @@
   line-height: 160%;
   color: #4f4f4f;
   opacity: 0.7;
+}
+
+@media screen and (max-width: 1024px) {
+  .application .container-inner {
+    flex-direction: column !important;
+  }
+  .application .container-inner .application-title {
+    text-align: center;
+    width: 100%;
+  }
+  .application .container-inner .application-title .users {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */

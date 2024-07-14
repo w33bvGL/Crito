@@ -4,6 +4,7 @@
   .container-inner
     padding: 105px 0
     display: flex
+    gap: 30px
     justify-content: space-between
 
     .application-title
@@ -53,6 +54,7 @@
 
     .application-advantages-container
       display: flex
+      justify-content: center
       gap: 30px
 
       .circle
@@ -62,21 +64,19 @@
         border-radius: 50%
         opacity: 0.7
 
-
       .advantages-container
         display: flex
         flex-direction: column
         gap: 30px
-        
+
         &:nth-child(2)
           margin-top: 80px
-
 
         .with-line
           -webkit-box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
           -moz-box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
           box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
-              
+
         .line
           position: absolute
           bottom: 0
@@ -109,3 +109,16 @@
               line-height: 160%
               color: #4f4f4f
               opacity: 0.7
+
+@media screen and (max-width: 1024px)
+  .application
+
+    .container-inner
+      flex-direction: column !important
+
+      .application-title
+        text-align: center
+        width: 100%
+
+        .users
+          display: none
