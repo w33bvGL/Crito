@@ -1,0 +1,111 @@
+.application
+  background-color: var(--color-secondary)
+
+  .container-inner
+    padding: 105px 0
+    display: flex
+    justify-content: space-between
+
+    .application-title
+      width: 50%
+
+      h2
+        font-size: 48px
+        font-family: 'jakarta-bold', sans-serif
+        letter-spacing: -1px
+        line-height: 140%
+        color: var(--color-font-dark-blue)
+        margin-buttom: 16px
+
+      p
+        font-size: 1em
+        line-height: 160%
+        color: var(--color-font-dark-blue)
+        opacity: 0.7
+        font-family: 'inter-regular', sans-serif
+
+      .users
+        margin-top: 60px
+        position: relative
+        display: flex
+
+        .users-inner
+          display: flex
+          position: relative
+          width: 150px
+          height: 100%
+
+          img
+            position: absolute
+
+            &:nth-child(2)
+              left: 40px
+
+            &:nth-child(3)
+              left: 80px
+
+        .users-stat
+          strong
+            font-size: 24px
+            font-family: 'inter-regular', sans-serif
+            line-height: 28px
+            color: var(--color-font-dark-blue)
+
+    .application-advantages-container
+      display: flex
+      gap: 30px
+
+      .circle
+        width: 24px
+        height: 24px
+        position: absolute
+        border-radius: 50%
+        opacity: 0.7
+
+
+      .advantages-container
+        display: flex
+        flex-direction: column
+        gap: 30px
+        
+        &:nth-child(2)
+          margin-top: 80px
+
+
+        .with-line
+          -webkit-box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
+          -moz-box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
+          box-shadow: 0px 0px 100px -17px rgba(0, 0, 0, 0.1)
+              
+        .line
+          position: absolute
+          bottom: 0
+          width: 100%
+          height: 7px
+          background-color: #FF928A
+
+        .advantages-item
+          position: relative
+          background-color: var(--color-white)
+
+          .advantages-item-image
+            position: relative
+            width: 50px
+            margin: 30px 25px 25px 25px
+
+          .advantages-item-content
+            padding: 0 25px 30px 25px
+
+            h3
+              font-size: 21px
+              color: var(--color-font-dark-blue)
+              font-family: 'jakarta-bold', sans-serif
+              line-height: 140%
+              letter-spacing: -1px
+
+            p
+              font-size: 1em
+              font-family: 'inter-regular', sans-serif
+              line-height: 160%
+              color: #4f4f4f
+              opacity: 0.7
