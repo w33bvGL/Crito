@@ -11,6 +11,10 @@
   src: url(../../fonts/static/Inter-ExtraLight.ttf);
 }
 @font-face {
+  font-family: "inter-bold";
+  src: url(../../fonts/static/Inter-Bold.ttf);
+}
+@font-face {
   font-family: "jakarta-regular";
   src: url(../../fonts/static/PlusJakartaSans-Regular.ttf);
 }

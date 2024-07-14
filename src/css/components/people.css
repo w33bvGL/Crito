@@ -1,0 +1,63 @@
+.people {
+  background-color: #fafafa;
+}
+.people .container-inner {
+  padding: 120px 0;
+}
+.people .container-inner .people-title {
+  margin-bottom: 64px;
+  text-align: center;
+}
+.people .container-inner .people-title h2 {
+  font-size: 48px;
+  letter-spacing: -1px;
+  line-height: 140%;
+  color: #141f39;
+  font-family: "jakarta-bold", sans-serif;
+  margin-bottom: 16px;
+}
+.people .container-inner .people-title p {
+  color: #141f39;
+  font-family: "inter-regular", sans-serif;
+  font-size: 16px;
+  line-height: 160%;
+  opacity: 0.7;
+}
+.people .container-inner .people-comments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.people .container-inner .people-comments .comments-item {
+  max-width: 380px;
+  background-color: white;
+  padding: 40px;
+}
+.people .container-inner .people-comments .comments-item .comments-title {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.people .container-inner .people-comments .comments-item .comments-title strong {
+  font-family: "inter-bold", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #141F39;
+}
+.people .container-inner .people-comments .comments-item .comments-title p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #141F39;
+  opacity: 0.7;
+  font-family: "inter-regular", sans-serif;
+}
+.people .container-inner .people-comments .comments-item .comments-comm p {
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "inter-regular", sans-serif;
+  color: #141F39;
+}
+
+/*# sourceMappingURL=people.css.map */
