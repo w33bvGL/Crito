@@ -1,9 +1,11 @@
 <div>
-#Crito
+# Crito
 
 ![site logo](img/Logo.png)
 
-Author: @designerzubaear
+### Smart-Thinking & Innovative Solution.
+
+Author: @designerzubaear <br>
 Gmail: service.design71@gmail.com
 </div>
 
