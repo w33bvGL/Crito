@@ -1,6 +1,8 @@
 # Crito - Smart-Thinking & Innovative Solution.
 
-![site logo](img/Logo.png)
+<a href="https://w33bvgl.github.io/Crito/">
+  <img src="img/Logo.png" alt="Crito logo" style="width: 150px;">
+</a>
 
 Author: @designerzubaear <br>
 Email: service.design71@gmail.com
